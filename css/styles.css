@@ -11,44 +11,17 @@ body{
 	width: 100%;
 	height: 830px;
 	margin: auto;
-	background: url(../galeri/biru.jpg);
+	background: url(../img/biru.jpg);
 	background-size: 100% 100%;
 }
 	.halaman .caption{
 		float: left;
-		margin-left: 65px;
-		width: 500px;
+		margin-top: 200px;
+		margin-left: 200px;
+		width: 800px;
 		color: black;
-	}
-
-	.halaman .caption form input[name=idpelanggan]{
-		width: 500px;
-		padding: 15px;
-		border: 1px solid gray;
-	}
-
-	.halaman .caption form input[name=nominal]{
-		width: 200px;
-		margin-top: 10px;
-		padding: 15px;
-		border: 1px solid gray;
-	}
-
-	.halaman .caption form button{
-		margin-top: 10px;
-		padding: 14px 16px;
-		background: #42c9a5;
-		cursor: pointer;
-		border: none;
-		background: #1387ad;
-		color: white;
-		font-weight: bold;
-	}
-
-	.halaman .caption form button:hover{
-		background: white;
-		color: black;
-		transition: 1s;
+		font-size: 30px;
+		text-align: justify;
 	}
 
 	.halaman .caption h3{
@@ -122,9 +95,3 @@ footer{
 	.content p{
 		color: #5c5c5c;
 	}
-
-table tr td{
-	width: 500px;
-	height: 200px;
-	border: none;	
-}
