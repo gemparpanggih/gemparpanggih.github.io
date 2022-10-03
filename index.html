@@ -1,8 +1,6 @@
 <html>
 <head>
 	<title>Gempar Code</title>
-    <script src="js/main.js"></script>
-    <script src="https://kit.fontawesome.com/a374d5ed26.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 	<link rel="SHORTCUT ICON" href="img/logo/colokan.png">
 </head>
@@ -18,10 +16,10 @@
                 </div>
                 <div class="menu">
                     <ul>
-                        <li><a class="mode" href="#">Join Now</a></li>
-                        <li><a class="mode" href="#">Game Pass</a></li>
-                        <li><a class="mode" href="#">Xbox Cloud</a></li>
-                        <li><button onclick="result()">Night Mode</button></li>
+                        <li><a class="mode" href="#contact">Contact Us</a></li>
+                        <li><a class="mode" href="#aboutus">About Us</a></li>
+                        <li><a class="mode" href="#voltase">Voltase List</a></li>
+                        <li><button class="mode" onclick="result()">Night Mode</button></li>
                     </ul>
                 </div>
                 
@@ -31,20 +29,21 @@
 
     <div class="container-1">
         <div class="banner">
-            <div class="caption">
+            <div class="caption" id="login">
                 <h1>Listrik Biru</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, quibusdam nulla at fugiat magni velit harum dolore odit distinctio obcaecati?</p>
     
                 <b><p class="caption-join">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, perferendis!</p></b>
     
-                <p><a href="#">LOGIN NOW FOR $1</a></p>
+                <button id="btn-info">LOGIN NOW FOR $1</button>
+                <p id="info" style="display: none">Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptatibus eius, praesentium quis suscipit illo et beatae illum repellendus soluta.</p>
     
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non aut eveniet earum vel laudantium provident!.</p>
             </div>
         </div>
     </div>
 
-    <div class="container-2 mode">
+    <div class="container-2 mode" id="voltase">
         <h1>Discover Your Favorite Voltase</h1>
         <div class="img-container-2">
             <div>
@@ -71,7 +70,7 @@
             </div>
         </div>
 
-        <div class="head-container-2">ABOUT US</div>
+        <div class="head-container-2" id="aboutus">ABOUT US</div>
 
         <div class="about-container mode">
             <div class="section-about"> 
@@ -86,39 +85,40 @@
         </div>
     </div>
 
-    <div class="container-3 mode">
-        <div class="portofolio mode">
-            <h2 class="mode">Contact Me</h2>
-                <div class="form-input">
-                    <form>
-                        <input type="text" name="" placeholder="Nama Lengkap">
-                        <input type="name" name="" placeholder="Email Aktif">
-                        <textarea cols="30" rows="10" name="komentar" placeholder="tambahkan komentar"></textarea>
-                        <button>Kirim Komentar</button>
-                    </form>
-                </div>
-                <div class="alamat">
-                    <h3>Alamat:</h3>
-                        <p>
-                            Jln. Arthur pendragon Komplek camelot RT 07 RW 08, Camelot, Britania Raya
-                        </p>
-                        <h3>Email Busineess:</h3>
-                        <p>
-                            gemparxsaber@gmail.com
-                        </p>
-                        <h3>Phone / Fax:</h3>
-                        <p>
-                            (021) 52940003
-                        </p>
-                </div>
-        </div>
-    </div>
-    
-	<div class="footer">
-		<p>
-			Copyright 2022 Gempar Panggih. All rights reserved.
-		</p>
-	</div>
 
+    <footer class="container-3 mode" id="contact">
+        <div class="head-container-3">Contact US</div>
+        <div class="foo-cont">
+            <div class="alamat">
+                <h4 class="mode">Location</h4>
+                <p class="mode">Camelot Kingdom, Great Britain<br>gemparxsaber@gmail.com<br>Phone: +628 2252 940003</p>
+            </div>
+            <div class="sosmed">
+                <h4 class="mode">Find Us On</h4>
+                <div class="circle-container">
+                    <!-- salah satu fitur pop up box -->
+                    <div class="circle ig">
+                        <a href="https://www.instagram.com/" onclick="return confirm('Click OK untuk Lanjutkan.');"><img src="img/sosmed/instagram.png" alt=""></a>
+                    </div>
+                    <div class="circle fb">
+                        <a href="https://www.facebook.com/" onclick="return confirm('Click OK untuk Lanjutkan.');"><img src="img/sosmed/facebook.png" alt=""></a>
+                    </div>
+                    <div class="circle wa">
+                        <a href="https://www.whatsapp.com/" onclick="return confirm('Click OK untuk Lanjutkan.');"><img src="img/sosmed/whatsapp.png" alt=""></a>
+                    </div>
+                    <div class="circle tw">
+                        <a href="https://www.twitter.com/" onclick="return confirm('Click OK untuk Lanjutkan.');"><img src="img/sosmed/twitter.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <div class="copyright">© 2022 <a href="https://instagram.com/gmpar_p/">Gempar Panggih D. Putra</a>. All rights reserved.</div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/addEvenListener.js"></script>
+    <script src="https://kit.fontawesome.com/a374d5ed26.js" crossorigin="anonymous"></script>
 </body>
 </html>
