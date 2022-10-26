@@ -9,4 +9,4 @@
 ### Link Posttest 3 : <a href="https://gemparpanggih.github.io/posttest3/" >Posttest 3</a>
 ### Link Posttest 4 : <a href="https://gemparpanggih.github.io/posttest4/" >Posttest 4</a>
 ### Link Posttest 5 : <a href="https://gemparpanggih.github.io/listrikbiru/" >Posttest 5</a>
-### Link Posttest 5 : <a href="https://gemparpanggih.github.io/listrik_biru_posttest6_web/" >Posttest 6</a>
+### Link Posttest 6 : <a href="https://gemparpanggih.github.io/listrik_biru_posttest6_web/" >Posttest 6</a>
